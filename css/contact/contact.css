@@ -1,0 +1,71 @@
+body{
+    background: #302b70;
+}
+.container-text{
+    /* display: flex; */
+    margin: 0 0 0 10%;
+}
+.contact-container{
+    margin:  0 0 0 15%;
+}
+.social-icon {
+    /* border: 1px solid whitesmoke; */
+    margin: 10px 0 20px 0;
+    /* width: 150%; */
+}
+.social-icon a {
+    font-size: 50px;
+    margin: 10px 0 10px 50px;
+}
+.social-icon a :hover{
+    color: rgba(245, 245, 245, 0.644); 
+}
+
+.contact-gif{
+   width: 40%;
+   /* height: 81.1vh; */
+   margin:  0px 0 0 0%;
+}
+.contact-image{
+    border-radius: 100%;
+    /* width: 50%; */
+    height: 200px;
+    margin: 0px 0 0 0%;
+}
+.buttons  li{
+    list-style: none;
+    background: whitesmoke;
+    margin: 10px;
+    border-radius: 1em;
+    padding: 0.5em;
+    text-align: center;
+}
+#resume{
+    width: 30%;
+    margin: 0 0 0 105px;
+}
+.contact-container ul li a{
+    color: black;
+}
+
+@media only screen and (max-width:780px){
+    .contact-gif{
+        display: none;
+    }
+   .buttons li{
+       margin: 20px 0 0 -20px;
+       width: 90%;
+       font-size: small;
+   }
+   #resume{
+    width: 30%;
+    margin: 10px 0 0 60px;
+   }
+   
+   #mail{
+       width: 100%;
+   }
+   .contact-image{
+       margin:  0 0 0 0px;
+   }
+}

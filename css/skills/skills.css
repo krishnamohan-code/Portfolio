@@ -1,0 +1,164 @@
+/* #home{
+    background: #302b70;
+    background: #787cd1;
+    height: 100vh;
+} */
+
+body{
+  background: #302b70;
+}
+
+.main-container{
+  display: flex;
+}
+.skill-image-1{
+  width: 40%;
+  position: relative;
+  animation-name: image-moving;
+  animation-duration: 2s;
+  animation-iteration-count: infinite ;
+}
+@keyframes image-moving{
+    0%{ left: 0px;top: 0px;}
+    50% { left: 0; top: 10px;}
+    100% { left: 0; top: 0px;}
+}
+.skill-image-2{
+  display: none;
+  position: relative;
+  animation-name: image-moving;
+  animation-duration: 2s;
+  animation-iteration-count: infinite ;
+}
+
+
+.skill-container{
+    width: 50%;
+    margin:  60px 0 0 150px;
+    /* border: 2px solid black; */
+  }
+  .skill-container h1{
+      text-align: center;
+  }
+  #java,#python{
+    width: 20%;
+    height: 80px;
+  }
+  #c,#html,#css{
+    width: 11%;
+  }
+  #javascript{
+    width: 10%;
+  }
+  #angularjs{
+    width: 25%;
+  }
+  #angularjs{
+    margin: 0 0 0 -100px;
+  }
+  #java,#python{
+    margin:  0 0 0 -60px;  
+  }
+  .myProgress {
+    width: 50%;
+    height: 20px;
+    /* background-color: #ddd; */
+    border:2px solid whitesmoke;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin:  30px 0 0 20px;
+  }
+  .tech-box{
+    display: flex;
+    margin: 20px 0 0 0;
+    /* margin-left: 5vw; */
+  }
+ 
+
+  .myBar {
+    width: 10%;
+    height: 16px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 16px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: black;
+  }
+  @media only screen and (max-width:790px){
+    .skill-container{
+      width: 100%;
+    }
+  
+    .main-container{
+      display: block;
+    }
+    .skill-image-1{
+      display: none;
+    }
+    .skill-image-2{
+      display: block;
+      width: 100%;
+    }
+    .myProgress{
+      width: 80%;
+    }
+  }
+  @media only screen and (max-width:450px){
+       
+      .skill-container{
+          width: 100%;
+          margin: 0;
+      }
+      .main-container,.tech-box{
+        display: block;
+      }
+      .skill-image-1{
+        display: none;
+      }
+      .skill-image-2{
+        
+        display: block;
+        width: 100%;
+      }
+       #java{
+         width: 35%;
+         margin: 0 0 0 20%;
+       }
+       #python{
+         width: 35%;
+         margin: 0px 0 0 25%;
+       }
+       #c,#html,#css{
+         width: 25%;
+         margin: 0 0 0 30%;
+       }
+       #javascript{
+          width: 15%;
+          margin: 0 0 0 37%;
+       }
+       #angularjs{
+         width: 50%;
+         margin: 0px 0 0 15%;
+       }
+       #spring,#django{
+         width: 12%;
+         margin: 0 0 0 30%;
+       }
+       .myProgress{
+        width: 85%;
+        height: 15px;
+        margin:  0px 0 0 9.5%;
+       }
+       .myBar {
+        width: 10%;
+        height: 12px;
+        background-color: whitesmoke;
+        text-align: center;
+        line-height: 13px;
+      }
+
+   
+  }
+ 
+    
