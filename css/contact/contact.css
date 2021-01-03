@@ -26,6 +26,9 @@ body{
    /* height: 81.1vh; */
    margin:  0px 0 0 0%;
 }
+.contact-gif-2{
+    display: none;
+}
 .contact-image{
     border-radius: 100%;
     /* width: 50%; */
@@ -67,5 +70,9 @@ body{
    }
    .contact-image{
        margin:  0 0 0 0px;
+   }
+   .contact-gif-2{
+       display: block;
+       width: 100%;
    }
 }
