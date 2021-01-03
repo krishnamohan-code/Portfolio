@@ -14,6 +14,7 @@
 body{
     font-family: 'Rowdies',cursive;
     color: whitesmoke;
+    background: #302b70;
 }
 /* width */
 ::-webkit-scrollbar {
