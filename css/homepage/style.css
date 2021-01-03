@@ -14,7 +14,7 @@
 body{
     font-family: 'Rowdies',cursive;
     color: whitesmoke;
-    background: #302b70;
+    background-color: #302b70;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -118,6 +118,7 @@ nav {
   
   /* Tablet menu */
   @media all and (min-width: 700px) {
+   
     .menu {
       justify-content: center;
     }
@@ -244,7 +245,7 @@ nav {
           margin: 0 0 0 -20px;
       }
       .container-text{
-           margin: 0;
+           margin: 0 0 0 0px;
       }
       .container-text h1{
           font-size: 8vw;
