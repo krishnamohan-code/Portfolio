@@ -10,12 +10,15 @@ body{
 }
 .social-icon {
     /* border: 1px solid whitesmoke; */
-    margin: 10px 0 20px 0;
+    margin: 10px 0 20px 0px;
     /* width: 150%; */
 }
 .social-icon a {
     font-size: 50px;
-    margin: 10px 0 10px 50px;
+    margin: 10px 0 10px 30px;
+}
+.social-icon a:nth-child(3),#hackerrank{
+    filter: invert(1);
 }
 .social-icon a :hover{
     color: rgba(245, 245, 245, 0.644); 
@@ -24,7 +27,7 @@ body{
 .contact-gif{
    width: 40%;
    /* height: 81.1vh; */
-   margin:  0px 0 0 0%;
+   margin:  0px 0 0 0;
 }
 .contact-gif-2{
     display: none;
@@ -33,10 +36,11 @@ body{
     border-radius: 100%;
     /* width: 50%; */
     height: 200px;
-    margin: 0px 0 0 0%;
+    margin: 0px 0 0 16%;
 }
 .buttons  li{
     list-style: none;
+    width: 75%;
     background: whitesmoke;
     margin: 10px;
     border-radius: 1em;
@@ -74,5 +78,10 @@ body{
    .contact-gif-2{
        display: block;
        width: 100%;
+   }
+   .social-icon a img,
+   #hackerrank{
+       width: 20%;
+       height: 50px;
    }
 }
